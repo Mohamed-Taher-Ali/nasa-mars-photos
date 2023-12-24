@@ -1,0 +1,17 @@
+.filter-form {
+  width: calc(50% - 50px);
+  z-index: 1;
+  padding: 25px 2px 5px 2px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: fixed;
+  top: 64px;
+  background-color: white;
+  box-shadow: 0 4px 3px -3px gray
+}
+
+@media (max-width: 1024px) {
+  .filter-form {
+      width: calc(100% - 50px)
+  }
+}

@@ -1,0 +1,19 @@
+.card-photo {
+    width: 120px;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: opacity .5s;
+}
+
+.card-photo:hover {
+    opacity: .8;
+}
+
+.image-load {
+    width: 135px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
