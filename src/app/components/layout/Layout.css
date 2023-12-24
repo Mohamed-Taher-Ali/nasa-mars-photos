@@ -1,0 +1,18 @@
+.custom-header {
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    align-items: center;
+}
+
+.custom-content {
+padding: 0px 25%;
+}
+
+@media (max-width: 1024px) {
+    .custom-content {
+        padding: 0px;
+    }
+}
